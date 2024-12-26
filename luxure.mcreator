@@ -1,0 +1,96 @@
+{
+  "mod_elements": [
+    {
+      "name": "AltInv",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alt_inv",
+      "metadata": {
+        "files": [
+          "src/main/java/com/jelzox/luxure/procedures/AltInvProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Backpack",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backpack",
+      "metadata": {
+        "files": [
+          "src/main/java/com/jelzox/luxure/item/BackpackItem.java",
+          "src/main/resources/assets/luxure/models/item/backpack.json"
+        ]
+      }
+    },
+    {
+      "name": "CustInv",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cust_inv",
+      "metadata": {
+        "files": [
+          "src/main/java/com/jelzox/luxure/client/gui/CustInvScreen.java",
+          "src/main/java/com/jelzox/luxure/world/inventory/CustInvMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/luxure/recipes/backpack.json"
+        ]
+      }
+    },
+    {
+      "name": "Luxure",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luxure",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.luxure.backpack": "Backpack",
+      "gui.luxure.cust_inv.name": "He",
+      "item_group.luxure.luxure": "Luxure"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "luxure",
+    "modName": "Luxure",
+    "version": "1.0.0",
+    "author": "phibook, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "modElementsPackage": "com.jelzox.luxure",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
